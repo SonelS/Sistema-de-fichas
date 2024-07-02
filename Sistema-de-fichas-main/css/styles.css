@@ -1,0 +1,91 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo de la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Estilo del logo o nombre de la marca */
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilo de la lista de menús */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+}
+
+/* Estilo de los elementos del menú */
+.navbar-item {
+    margin-left: 3rem;
+}
+
+/* Estilo de los enlaces del menú */
+.navbar-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces */
+.navbar-item a:hover {
+    color: #ff6347;
+}
+/* clase logos */
+.logos{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 45px;
+    justify-content: space-between;
+}
+/* footer*/
+.footer{
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    line-height: 45px;
+}
+.imagen_footer{
+    width: 150px;
+    height: auto;
+}
+.fondo{
+    background-image: url("imagenes/especialidades\ médicas\ con\ más\ salida\ laboral.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+
+}
